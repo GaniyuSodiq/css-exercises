@@ -11,8 +11,9 @@ html {
   box-sizing: border-box;
   display: grid;
   /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
-  grid-template-rows: repeat(8, 50px);
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(8, 100px);
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(4, 215px);
   gap: 15px;
 }
 
@@ -43,6 +44,7 @@ html {
 .article {
   background-color: #7E1DC3;
   grid-area: 3 / 2 / 8 / 5;
+  overflow: auto;
 }
 
 .footer {
