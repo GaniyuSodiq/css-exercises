@@ -10,7 +10,8 @@ html {
   padding: 16px;
   box-sizing: border-box;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-rows: repeat(8, 50px);
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 15px;
 }
