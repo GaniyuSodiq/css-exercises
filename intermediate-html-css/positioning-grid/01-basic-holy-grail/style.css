@@ -30,6 +30,7 @@ html {
 
 .sidebar {
   background-color: #005B94;
+  grid-area: 2 / 1 / 5 / 3;
 }
 
 .nav {
