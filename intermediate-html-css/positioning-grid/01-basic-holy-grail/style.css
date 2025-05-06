@@ -11,9 +11,9 @@ html {
   box-sizing: border-box;
   display: grid;
   /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
-  grid-template-rows: repeat(8, 100px);
+  grid-template-rows: repeat(8, 1fr);
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-  grid-template-columns: repeat(4, 215px);
+  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
 
